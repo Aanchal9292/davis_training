@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyP6sWvT1iK05MaTWGEc2P+k",
+      "authorship_tag": "ABX9TyObMZHcqmAIBv3JjVVqRTbi",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -123,6 +123,39 @@
             "Enter the number : 45\n",
             "Odd\n",
             "None\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# function for even or odd\n",
+        "def evenodd(x):\n",
+        "    if x % 2 == 0:\n",
+        "        print(\"Even\")\n",
+        "    else:\n",
+        "        print(\"Odd\")\n",
+        "\n",
+        "# main program\n",
+        "num = int(input(\"Enter the number : \"))\n",
+        "evenodd(num)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cXi5g9qPMhky",
+        "outputId": "3a02dc9c-1955-4fe9-e601-fd12a8e9d12a"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number : 56\n",
+            "Even\n"
           ]
         }
       ]
