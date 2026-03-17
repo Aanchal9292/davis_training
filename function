@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMNSYKvMl+hli0x1WjEbqYs",
+      "authorship_tag": "ABX9TyP6sWvT1iK05MaTWGEc2P+k",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -90,6 +90,39 @@
             "Enter first number : 12\n",
             "Enter second number : 35\n",
             "Sum :  47\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# function for even or odd\n",
+        "def evenodd(x):\n",
+        "  if x%2 == 0:\n",
+        "    print(\"Even\")\n",
+        "  else:\n",
+        "    print(\"Odd\")\n",
+        "# main program\n",
+        "num = int(input(\"Enter the number : \"))\n",
+        "print(evenodd(num))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LsuNoTdTJ79D",
+        "outputId": "c5064110-e3c8-4532-8557-0c93c397de7b"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number : 45\n",
+            "Odd\n",
+            "None\n"
           ]
         }
       ]
