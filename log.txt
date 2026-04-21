@@ -1,0 +1,7 @@
+INFO System started
+ERROR Disk failure
+WARNING Low memory
+ERROR Disk failure
+ERROR Network timeout
+INFO User login
+ERROR Network timeout
