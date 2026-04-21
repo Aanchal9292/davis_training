@@ -1,3 +1,12 @@
+# 2. Fraud Transaction Detector
+# Given a list of transactions:
+# • Detect suspicious ones based on:
+# o Amount > threshold
+# o Same user multiple transactions within short time
+# Use:
+# • loops + conditions
+# • Store flagged data in dictionary 
+
 # List of transactions (user, amount)
 transactions = [
     ("user1", 5000),
