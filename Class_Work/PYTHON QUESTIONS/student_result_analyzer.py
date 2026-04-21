@@ -1,3 +1,14 @@
+# Question
+# 1. Smart Student Result Analyzer
+# A school stores student data in a file:
+# id,name,marks1,marks2,marks3
+# Build a system that:
+# • Reads file
+# • Calculates total, percentage
+# • Assigns grade using selection statements
+# • Handles missing/invalid data using exception handling
+# • Outputs toppers per class 
+
 # Function to assign grade based on percentage
 def calculate_grade(percentage):
     if percentage >= 90:
