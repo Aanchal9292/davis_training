@@ -1,3 +1,12 @@
+# 4. Custom Password Validator
+# Rules:
+# • Min 8 chars
+# • At least 1 uppercase, 1 lowercase, 1 digit
+# Use:
+# • string operations
+# • loops + conditionals
+# • Raise custom exception if invalid 
+
 # Custom exception class
 class InvalidPassword(Exception):
     pass
