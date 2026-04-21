@@ -1,3 +1,12 @@
+# 3. Log File Cleaner
+# Given a log file:
+# • Remove duplicate entries
+# • Filter only ERROR logs
+# • Count occurrences
+# Use:
+# • set for uniqueness
+# • file handling
+
 unique_logs = set()   # Set to store unique ERROR logs
 
 # Open log file
